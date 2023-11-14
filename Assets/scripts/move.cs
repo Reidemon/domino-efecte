@@ -11,4 +11,5 @@ public class move : MonoBehaviour
         float h = Input.GetAxis("Horizontal") * Time.deltaTime;
     }
 
+    Application.Quit();
 }
